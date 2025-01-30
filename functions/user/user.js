@@ -1,17 +1,3 @@
-// const response = require("../../utills/response");
-// const {createUser} = require("../../utills/dyanmoDb");
-// const { putItem, getItem} = require("../../utills/dyanmoDb");
-// module.exports.createUser = async (event, context) => {
-    
-//     console.log("event ", event.body);
-//     const body = JSON.parse(event.body);
-//     console.log("now body value is ", body);
-//     //create and save the user to the database
-//     const res = await createUser(body, "usersTable-dev")
-//     console.log("response is ", response);
-//     return {...response.success, body: JSON.stringify(res)}
-// }
-
 
 const { putItem } = require("../../utills/dyanmoDb");
 
